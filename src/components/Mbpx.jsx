@@ -7,9 +7,9 @@ const Mbpx = () => {
 
     const mapContainer = useRef(null);
     const map = useRef(null);
-    const [lng, setLng] = useState(-70.9);
-    const [lat, setLat] = useState(42.35);
-    const [zoom, setZoom] = useState(9);
+    const [lng, setLng] = useState(78.9629);
+    const [lat, setLat] = useState(20.5937);
+    const [zoom, setZoom] = useState(2.5);
 
     useEffect(() => {
         if (map.current) return; // initialize map only once
